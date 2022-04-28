@@ -14,7 +14,7 @@ namespace csharp
         {
             for (var i = 0; i < Items.Count; i++)
             {
-                if (Items[i].Name != ItemNames.AgedBrie && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
+                if (Item_quality_decreases_with_age(i))
                 {
                     if (Items[i].Quality > 0)
                     {
@@ -30,7 +30,7 @@ namespace csharp
                     {
                         Items[i].Quality = Items[i].Quality + 1;
 
-                        if (Items[i].Name == "Backstage passes to a TAFKAL80ETC concert")
+                        if (Item_is_backstage_pass(i))
                         {
                             if (Items[i].SellIn < 11)
                             {
@@ -60,7 +60,7 @@ namespace csharp
                 {
                     if (Items[i].Name != ItemNames.AgedBrie)
                     {
-                        if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
+                        if (Item_is_not_backstage_pass(i))
                         {
                             if (Items[i].Quality > 0)
                             {
@@ -84,6 +84,21 @@ namespace csharp
                     }
                 }
             }
+        }
+
+        private bool Item_is_not_backstage_pass(int item_index)
+        {
+            return Items[item_index].Name != "Backstage passes to a TAFKAL80ETC concert";
+        }
+
+        private bool Item_is_backstage_pass(int item_index)
+        {
+            return Items[item_index].Name == "Backstage passes to a TAFKAL80ETC concert";
+        }
+
+        private bool Item_quality_decreases_with_age(int item_index)
+        {
+            return Items[item_index].Name != ItemNames.AgedBrie && Items[item_index].Name != "Backstage passes to a TAFKAL80ETC concert";
         }
     }
 }

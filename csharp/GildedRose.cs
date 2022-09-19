@@ -5,7 +5,7 @@ namespace csharp
     public class GildedRose
     {
         IList<Item> Items;
-        private const int MaxQuality = 50;
+        private const int MaxQuality = 60;
 
         public GildedRose(IList<Item> Items)
         {

@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text;
 using ApprovalTests;
+using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using NUnit.Framework;
 
@@ -12,17 +13,27 @@ namespace csharp
     public class ApprovalTest
     {
         [Test]
-        public void ThirtyDays()
+        public void UpdateQuality()
         {
-            
-            StringBuilder fakeoutput = new StringBuilder();
-            Console.SetOut(new StringWriter(fakeoutput));
-            Console.SetIn(new StringReader("a\n"));
+            CombinationApprovals.VerifyAllCombinations(
+                DoUpdateQuality,
+                new String[] { "foo", "Aged Brie", $"{ItemNames.BackstagePasses} to a TAFKAL80ETC concert", ItemNames.Sulfuras },
+                new int[] { -1, 0, 2, 6, 11 },
+                new int[] { 0, 1, 49, 50 });
+        }
 
-            Program.Main(new string[] { });
-            var output = fakeoutput.ToString();
-
-            Approvals.Verify(output);
+        private String DoUpdateQuality(String name, int sellin, int quality)
+        {
+            Item[] items = new Item[] { 
+                new Item
+                    {
+                        Name = name, 
+                        SellIn = sellin, 
+                        Quality = quality
+                    } };
+            var app = new GildedRose(items);
+            app.UpdateQuality();
+            return items[0].ToString();
         }
     }
 }

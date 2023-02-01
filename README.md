@@ -8,10 +8,15 @@ Note that I also have an entirely separate repo - [gilded-rose-kata](https://git
 
 Note that I also added a section to my [clare-wiki](https://clare-wiki.herokuapp.com/pages/think/code-princ/Refactoring#approval-testing) which has a few more notes on getting started with approval testing.
 
+## A note on keeping this repo up to date with Emily's source
+
+I've deliberately kept my `main` branch clean. It only contains Emily's source code. Any additional code is [in branches](#a-note-on-branches). That way I can sync my main branch with Emily's and then merge it into my own branches, so that I can keep my fork up to date. If there are any conflicts with any of my branches, I can resolve them at my leisure and prioritise only the branches I'm actively using.
+
 ## A note on branches
 
 Note that I have another version of this repo, not a fork, which has its own readme. 
   - It's mostly deprecated now - you probably want to ignore it.
+  - BUT it is worth noting that my sample refactored code - using polymorphism - was originally coded in this repo, and although I have copied the code over to the `sample-polymorphic-refactor` branch, the original commits are all in the older repo. 
 
 At the time of writing, the following branches exist in this repo:
 
@@ -33,6 +38,12 @@ At the time of writing, the following branches exist in this repo:
     - Designed to contain demo commits for the lift up conditional technique 
     - Based on the `csharp-liftup-start` branch
     - I may or may not have got round to actually adding the demo commits
+  - `csharp-unit-tests`
+    - Starting point for a refactoring based on unit tests rather than approval tests
+    - Note that the original commits for this are all still in the `csharp-test-start` branch in [the older repo](https://github.com/claresudbery/gilded-rose-kata/tree/csharp-test-start)
+  - `sample-polymorphic-refactor`
+    - Demo of my polymorphic refactoring
+    - Note that the original commits for this are all still in the `master` branch in [the older repo](https://github.com/claresudbery/gilded-rose-kata)
   - `oreilly-refactoring-demo`
     - I think I created this when I was demoing code the first time I ran the O'Reilly Refactoring Fundamentals course
   - `oreilly-refactoring-demo-v2`

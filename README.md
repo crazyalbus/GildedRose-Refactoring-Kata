@@ -8,6 +8,36 @@ Note that I also have an entirely separate repo - [gilded-rose-kata](https://git
 
 Note that I also added a section to my [clare-wiki](https://clare-wiki.herokuapp.com/pages/think/code-princ/Refactoring#approval-testing) which has a few more notes on getting started with approval testing.
 
+## A note on branches
+
+Note that I have another version of this repo, not a fork, which has its own readme. 
+  - It's mostly deprecated now - you probably want to ignore it.
+
+At the time of writing, the following branches exist in this repo:
+
+- Branches designed to be merged with new branches:
+  - `clare-fork-readme` 
+    - Created purely to contain this forked version of the main readme 
+    - Designed to be merged into any new branches
+  - `csharp-approval-fixes`
+    - Created to house changes I needed to make to get approval tests working in C# code
+    - A [PR has been issued](https://github.com/emilybache/GildedRose-Refactoring-Kata/pull/402) to get this merged into Emily's source
+  - `requirements-edit`
+    - Edited version of the Gilded Rose requirements
+    - A [PR has been issued](https://github.com/emilybache/GildedRose-Refactoring-Kata/pull/403) to get this merged into Emily's source
+- Branches created for workshops and demos:
+  - `csharp-liftup-start`
+    - Starting point for participants in a "lift up conditional" workshop
+    - See [Emily's demo video](https://www.youtube.com/watch?v=OJmg9aMxPDI)
+  - `csharp-liftup-demo`
+    - Designed to contain demo commits for the lift up conditional technique 
+    - Based on the `csharp-liftup-start` branch
+    - I may or may not have got round to actually adding the demo commits
+  - `oreilly-refactoring-demo`
+    - I think I created this when I was demoing code the first time I ran the O'Reilly Refactoring Fundamentals course
+  - `oreilly-refactoring-demo-v2`
+    - Looks like I created this when I was demoing code the *second* time I ran the O'Reilly Refactoring Fundamentals course
+
 ## Emily's Intro
 
 This Kata was originally created by Terry Hughes (http://twitter.com/TerryHughes). It is already on GitHub [here](https://github.com/NotMyself/GildedRose). See also [Bobby Johnson's description of the kata](https://iamnotmyself.com/refactor-this-the-gilded-rose-kata/).

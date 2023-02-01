@@ -7,8 +7,13 @@ Elixir of the Mongoose, 5, 7
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 15, 20
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 10, 49
 Backstage passes to a Jungle Boys concert, 5, 49
+=======
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, 3, 6
 
 -------- day 1 --------
@@ -19,8 +24,13 @@ Elixir of the Mongoose, 4, 6
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 14, 21
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 9, 50
 Backstage passes to a Jungle Boys concert, 4, 50
+=======
+Backstage passes to a TAFKAL80ETC concert, 9, 50
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, 2, 5
 
 -------- day 2 --------
@@ -31,8 +41,13 @@ Elixir of the Mongoose, 3, 5
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 13, 22
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 8, 50
 Backstage passes to a Jungle Boys concert, 3, 50
+=======
+Backstage passes to a TAFKAL80ETC concert, 8, 50
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, 1, 4
 
 -------- day 3 --------
@@ -43,8 +58,13 @@ Elixir of the Mongoose, 2, 4
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 12, 23
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 7, 50
 Backstage passes to a Jungle Boys concert, 2, 50
+=======
+Backstage passes to a TAFKAL80ETC concert, 7, 50
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, 0, 3
 
 -------- day 4 --------
@@ -55,8 +75,13 @@ Elixir of the Mongoose, 1, 3
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 11, 24
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 6, 50
 Backstage passes to a Jungle Boys concert, 1, 50
+=======
+Backstage passes to a TAFKAL80ETC concert, 6, 50
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -1, 1
 
 -------- day 5 --------
@@ -67,8 +92,13 @@ Elixir of the Mongoose, 0, 2
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 10, 25
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 5, 50
 Backstage passes to a Jungle Boys concert, 0, 50
+=======
+Backstage passes to a TAFKAL80ETC concert, 5, 50
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -2, 0
 
 -------- day 6 --------
@@ -79,8 +109,13 @@ Elixir of the Mongoose, -1, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 9, 27
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 4, 50
 Backstage passes to a Jungle Boys concert, -1, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, 4, 50
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -3, 0
 
 -------- day 7 --------
@@ -91,8 +126,13 @@ Elixir of the Mongoose, -2, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 8, 29
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 3, 50
 Backstage passes to a Jungle Boys concert, -2, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, 3, 50
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -4, 0
 
 -------- day 8 --------
@@ -103,8 +143,13 @@ Elixir of the Mongoose, -3, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 7, 31
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 2, 50
 Backstage passes to a Jungle Boys concert, -3, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, 2, 50
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -5, 0
 
 -------- day 9 --------
@@ -115,8 +160,13 @@ Elixir of the Mongoose, -4, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 6, 33
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 1, 50
 Backstage passes to a Jungle Boys concert, -4, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, 1, 50
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -6, 0
 
 -------- day 10 --------
@@ -127,8 +177,13 @@ Elixir of the Mongoose, -5, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 5, 35
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, 0, 50
 Backstage passes to a Jungle Boys concert, -5, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, 0, 50
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -7, 0
 
 -------- day 11 --------
@@ -139,8 +194,13 @@ Elixir of the Mongoose, -6, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 4, 38
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -1, 0
 Backstage passes to a Jungle Boys concert, -6, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -8, 0
 
 -------- day 12 --------
@@ -151,8 +211,13 @@ Elixir of the Mongoose, -7, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 3, 41
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -2, 0
 Backstage passes to a Jungle Boys concert, -7, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -9, 0
 
 -------- day 13 --------
@@ -163,8 +228,13 @@ Elixir of the Mongoose, -8, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 2, 44
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -3, 0
 Backstage passes to a Jungle Boys concert, -8, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -10, 0
 
 -------- day 14 --------
@@ -175,8 +245,13 @@ Elixir of the Mongoose, -9, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 1, 47
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -4, 0
 Backstage passes to a Jungle Boys concert, -9, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -11, 0
 
 -------- day 15 --------
@@ -187,8 +262,13 @@ Elixir of the Mongoose, -10, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 0, 50
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -5, 0
 Backstage passes to a Jungle Boys concert, -10, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -12, 0
 
 -------- day 16 --------
@@ -199,8 +279,13 @@ Elixir of the Mongoose, -11, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -1, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -6, 0
 Backstage passes to a Jungle Boys concert, -11, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -13, 0
 
 -------- day 17 --------
@@ -211,8 +296,13 @@ Elixir of the Mongoose, -12, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -2, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -7, 0
 Backstage passes to a Jungle Boys concert, -12, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -14, 0
 
 -------- day 18 --------
@@ -223,8 +313,13 @@ Elixir of the Mongoose, -13, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -3, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -8, 0
 Backstage passes to a Jungle Boys concert, -13, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -15, 0
 
 -------- day 19 --------
@@ -235,8 +330,13 @@ Elixir of the Mongoose, -14, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -4, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -9, 0
 Backstage passes to a Jungle Boys concert, -14, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -16, 0
 
 -------- day 20 --------
@@ -247,8 +347,13 @@ Elixir of the Mongoose, -15, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -5, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -10, 0
 Backstage passes to a Jungle Boys concert, -15, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -17, 0
 
 -------- day 21 --------
@@ -259,8 +364,13 @@ Elixir of the Mongoose, -16, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -6, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -11, 0
 Backstage passes to a Jungle Boys concert, -16, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+Backstage passes to a TAFKAL80ETC concert, -16, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -18, 0
 
 -------- day 22 --------
@@ -271,8 +381,13 @@ Elixir of the Mongoose, -17, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -7, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -12, 0
 Backstage passes to a Jungle Boys concert, -17, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+Backstage passes to a TAFKAL80ETC concert, -17, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -19, 0
 
 -------- day 23 --------
@@ -283,8 +398,13 @@ Elixir of the Mongoose, -18, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -8, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -13, 0
 Backstage passes to a Jungle Boys concert, -18, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+Backstage passes to a TAFKAL80ETC concert, -18, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -20, 0
 
 -------- day 24 --------
@@ -295,8 +415,13 @@ Elixir of the Mongoose, -19, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -9, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -14, 0
 Backstage passes to a Jungle Boys concert, -19, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+Backstage passes to a TAFKAL80ETC concert, -19, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -21, 0
 
 -------- day 25 --------
@@ -307,8 +432,13 @@ Elixir of the Mongoose, -20, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -10, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -15, 0
 Backstage passes to a Jungle Boys concert, -20, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+Backstage passes to a TAFKAL80ETC concert, -20, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -22, 0
 
 -------- day 26 --------
@@ -319,8 +449,13 @@ Elixir of the Mongoose, -21, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -11, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -16, 0
 Backstage passes to a Jungle Boys concert, -21, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -16, 0
+Backstage passes to a TAFKAL80ETC concert, -21, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -23, 0
 
 -------- day 27 --------
@@ -331,8 +466,13 @@ Elixir of the Mongoose, -22, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -12, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -17, 0
 Backstage passes to a Jungle Boys concert, -22, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -17, 0
+Backstage passes to a TAFKAL80ETC concert, -22, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -24, 0
 
 -------- day 28 --------
@@ -343,8 +483,13 @@ Elixir of the Mongoose, -23, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -13, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -18, 0
 Backstage passes to a Jungle Boys concert, -23, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -18, 0
+Backstage passes to a TAFKAL80ETC concert, -23, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -25, 0
 
 -------- day 29 --------
@@ -355,8 +500,13 @@ Elixir of the Mongoose, -24, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -14, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -19, 0
 Backstage passes to a Jungle Boys concert, -24, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -19, 0
+Backstage passes to a TAFKAL80ETC concert, -24, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -26, 0
 
 -------- day 30 --------
@@ -367,7 +517,12 @@ Elixir of the Mongoose, -25, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -15, 0
+<<<<<<< HEAD
 Backstage passes to a Bob Marley concert, -20, 0
 Backstage passes to a Jungle Boys concert, -25, 0
+=======
+Backstage passes to a TAFKAL80ETC concert, -20, 0
+Backstage passes to a TAFKAL80ETC concert, -25, 0
+>>>>>>> csharp-approval-fixes
 Conjured Mana Cake, -27, 0
 

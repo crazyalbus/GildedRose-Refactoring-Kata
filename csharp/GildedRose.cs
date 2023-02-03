@@ -65,7 +65,7 @@ namespace csharp
                         }
                     }
 
-                    if (item.Name != "Sulfuras, Hand of Ragnaros")
+                    if (true)
                     {
                         item.SellIn = item.SellIn - 1;
                     }

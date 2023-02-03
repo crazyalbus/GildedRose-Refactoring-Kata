@@ -20,8 +20,8 @@ namespace csharp
 
         private static void DoUpdateQuality(Item item)
         {
-            var isNotAgedBrie = item.Name != "Aged Brie";
-            if (isNotAgedBrie && item.Name != "Backstage passes to a TAFKAL80ETC concert")
+            var isAgedBrie = item.Name == "Aged Brie";
+            if (!isAgedBrie && item.Name != "Backstage passes to a TAFKAL80ETC concert")
             {
                 if (item.Quality > 0)
                 {
@@ -65,7 +65,7 @@ namespace csharp
 
             if (item.SellIn < 0)
             {
-                if (isNotAgedBrie)
+                if (!isAgedBrie)
                 {
                     if (item.Name != "Backstage passes to a TAFKAL80ETC concert")
                     {

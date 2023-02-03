@@ -74,16 +74,6 @@ namespace csharp
                     var isSulfuras = item.Name == "Sulfuras, Hand of Ragnaros";
                     if (isSulfuras)
                     {
-                        if (item.Quality > 0)
-                        {
-                        }
-
-                        if (item.SellIn < 0)
-                        {
-                            if (item.Quality > 0)
-                            {
-                            }
-                        }
                     }
                     else
                     {

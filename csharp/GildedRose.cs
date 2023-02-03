@@ -65,10 +65,7 @@ namespace csharp
                         }
                     }
 
-                    if (true)
-                    {
-                        item.SellIn = item.SellIn - 1;
-                    }
+                    item.SellIn = item.SellIn - 1;
 
                     if (item.SellIn < 0)
                     {

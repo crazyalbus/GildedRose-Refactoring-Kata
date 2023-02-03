@@ -28,10 +28,7 @@ namespace csharp
                     item.Quality = item.Quality + 1;
                 }
 
-                if (!isSulfuras)
-                {
-                    item.SellIn = item.SellIn - 1;
-                }
+                item.SellIn = item.SellIn - 1;
 
                 if (item.SellIn < 0)
                 {

@@ -20,8 +20,7 @@ namespace csharp
 
         private static void DoUpdateQuality(Item item)
         {
-            var isAgedBrie = item.Name == "Aged Brie";
-            if (isAgedBrie)
+            if (item.Name == "Aged Brie")
             {
                 if (item.Quality < 50)
                 {

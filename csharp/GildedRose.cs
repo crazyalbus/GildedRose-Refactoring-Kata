@@ -35,7 +35,7 @@ namespace csharp
 
                 if (item.SellIn < 0)
                 {
-                    if (!isAgedBrie)
+                    if (false)
                     {
                         if (item.Name != "Backstage passes to a TAFKAL80ETC concert")
                         {

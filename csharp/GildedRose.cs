@@ -77,20 +77,7 @@ namespace csharp
 
                     if (item.SellIn < 0)
                     {
-                        if (!isBackstagePass)
-                        {
-                            if (item.Quality > 0)
-                            {
-                                if (item.Name != "Sulfuras, Hand of Ragnaros")
-                                {
-                                    item.Quality = item.Quality - 1;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            item.Quality = item.Quality - item.Quality;
-                        }
+                        item.Quality = item.Quality - item.Quality;
                     }
                 }
                 else

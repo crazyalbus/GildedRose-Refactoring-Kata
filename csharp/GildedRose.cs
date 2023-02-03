@@ -14,8 +14,7 @@ namespace csharp
         {
             for (var i = 0; i < Items.Count; i++)
             {
-                var item = Items[i];
-                DoUpdateQuality(item);
+                DoUpdateQuality(Items[i]);
             }
         }
 

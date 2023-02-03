@@ -23,7 +23,7 @@ namespace csharp
             var isAgedBrie = item.Name == "Aged Brie";
             if (isAgedBrie)
             {
-                if (!isAgedBrie && item.Name != "Backstage passes to a TAFKAL80ETC concert")
+                if (false)
                 {
                     if (item.Quality > 0)
                     {

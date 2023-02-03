@@ -46,74 +46,127 @@ namespace csharp
                 var isBackstagePass = item.Name == "Backstage passes to a TAFKAL80ETC concert";
                 if (isBackstagePass)
                 {
-                    DoEverythingElse(item, isBackstagePass); 
-                }
-                else
-                {
-                    DoEverythingElse(item, isBackstagePass); 
-                }
-            }
-        }
+                    if (!isBackstagePass)
+                    {
+                        if (item.Quality > 0)
+                        {
+                            if (item.Name != "Sulfuras, Hand of Ragnaros")
+                            {
+                                item.Quality = item.Quality - 1;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (item.Quality < 50)
+                        {
+                            item.Quality = item.Quality + 1;
 
-        private static void DoEverythingElse(Item item, bool isBackstagePass)
-        {
-            if (!isBackstagePass)
-            {
-                if (item.Quality > 0)
-                {
+                            if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
+                            {
+                                if (item.SellIn < 11)
+                                {
+                                    if (item.Quality < 50)
+                                    {
+                                        item.Quality = item.Quality + 1;
+                                    }
+                                }
+
+                                if (item.SellIn < 6)
+                                {
+                                    if (item.Quality < 50)
+                                    {
+                                        item.Quality = item.Quality + 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     if (item.Name != "Sulfuras, Hand of Ragnaros")
                     {
-                        item.Quality = item.Quality - 1;
+                        item.SellIn = item.SellIn - 1;
                     }
-                }
-            }
-            else
-            {
-                if (item.Quality < 50)
-                {
-                    item.Quality = item.Quality + 1;
 
-                    if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
+                    if (item.SellIn < 0)
                     {
-                        if (item.SellIn < 11)
+                        if (!isBackstagePass)
                         {
-                            if (item.Quality < 50)
+                            if (item.Quality > 0)
                             {
-                                item.Quality = item.Quality + 1;
+                                if (item.Name != "Sulfuras, Hand of Ragnaros")
+                                {
+                                    item.Quality = item.Quality - 1;
+                                }
                             }
                         }
-
-                        if (item.SellIn < 6)
+                        else
                         {
-                            if (item.Quality < 50)
-                            {
-                                item.Quality = item.Quality + 1;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (item.Name != "Sulfuras, Hand of Ragnaros")
-            {
-                item.SellIn = item.SellIn - 1;
-            }
-
-            if (item.SellIn < 0)
-            {
-                if (!isBackstagePass)
-                {
-                    if (item.Quality > 0)
-                    {
-                        if (item.Name != "Sulfuras, Hand of Ragnaros")
-                        {
-                            item.Quality = item.Quality - 1;
+                            item.Quality = item.Quality - item.Quality;
                         }
                     }
                 }
                 else
                 {
-                    item.Quality = item.Quality - item.Quality;
+                    if (!isBackstagePass)
+                    {
+                        if (item.Quality > 0)
+                        {
+                            if (item.Name != "Sulfuras, Hand of Ragnaros")
+                            {
+                                item.Quality = item.Quality - 1;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (item.Quality < 50)
+                        {
+                            item.Quality = item.Quality + 1;
+
+                            if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
+                            {
+                                if (item.SellIn < 11)
+                                {
+                                    if (item.Quality < 50)
+                                    {
+                                        item.Quality = item.Quality + 1;
+                                    }
+                                }
+
+                                if (item.SellIn < 6)
+                                {
+                                    if (item.Quality < 50)
+                                    {
+                                        item.Quality = item.Quality + 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    if (item.Name != "Sulfuras, Hand of Ragnaros")
+                    {
+                        item.SellIn = item.SellIn - 1;
+                    }
+
+                    if (item.SellIn < 0)
+                    {
+                        if (!isBackstagePass)
+                        {
+                            if (item.Quality > 0)
+                            {
+                                if (item.Name != "Sulfuras, Hand of Ragnaros")
+                                {
+                                    item.Quality = item.Quality - 1;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            item.Quality = item.Quality - item.Quality;
+                        }
+                    }
                 }
             }
         }

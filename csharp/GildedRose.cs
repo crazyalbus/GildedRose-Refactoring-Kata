@@ -43,7 +43,8 @@ namespace csharp
             }
             else
             {
-                if (item.Name != "Backstage passes to a TAFKAL80ETC concert")
+                var isBackstagePass = item.Name == "Backstage passes to a TAFKAL80ETC concert";
+                if (!isBackstagePass)
                 {
                     if (item.Quality > 0)
                     {
@@ -89,7 +90,7 @@ namespace csharp
                 {
                     if (!isAgedBrie)
                     {
-                        if (item.Name != "Backstage passes to a TAFKAL80ETC concert")
+                        if (!isBackstagePass)
                         {
                             if (item.Quality > 0)
                             {

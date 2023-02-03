@@ -21,6 +21,11 @@ namespace csharp
         private static void DoUpdateQuality(Item item)
         {
             var isAgedBrie = item.Name == "Aged Brie";
+            DoEverythingElse(item, isAgedBrie);
+        }
+
+        private static void DoEverythingElse(Item item, bool isAgedBrie)
+        {
             if (!isAgedBrie && item.Name != "Backstage passes to a TAFKAL80ETC concert")
             {
                 if (item.Quality > 0)

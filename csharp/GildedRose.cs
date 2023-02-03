@@ -72,28 +72,40 @@ namespace csharp
                 else
                 {
                     var isSulfuras = item.Name == "Sulfuras, Hand of Ragnaros";
-                    if (item.Quality > 0)
+                    if (isSulfuras)
                     {
-                        if (!isSulfuras)
-                        {
-                            item.Quality = item.Quality - 1;
-                        }
+                        DoEverythingElse(item, isSulfuras); 
                     }
+                    else
+                    {
+                        DoEverythingElse(item, isSulfuras); 
+                    }
+                }
+            }
+        }
 
+        private static void DoEverythingElse(Item item, bool isSulfuras)
+        {
+            if (item.Quality > 0)
+            {
+                if (!isSulfuras)
+                {
+                    item.Quality = item.Quality - 1;
+                }
+            }
+
+            if (!isSulfuras)
+            {
+                item.SellIn = item.SellIn - 1;
+            }
+
+            if (item.SellIn < 0)
+            {
+                if (item.Quality > 0)
+                {
                     if (!isSulfuras)
                     {
-                        item.SellIn = item.SellIn - 1;
-                    }
-
-                    if (item.SellIn < 0)
-                    {
-                        if (item.Quality > 0)
-                        {
-                            if (!isSulfuras)
-                            {
-                                item.Quality = item.Quality - 1;
-                            }
-                        }
+                        item.Quality = item.Quality - 1;
                     }
                 }
             }

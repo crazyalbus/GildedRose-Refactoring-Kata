@@ -23,17 +23,6 @@ namespace csharp
             var isAgedBrie = item.Name == "Aged Brie";
             if (isAgedBrie)
             {
-                if (false)
-                {
-                    if (item.Quality > 0)
-                    {
-                        if (item.Name != "Sulfuras, Hand of Ragnaros")
-                        {
-                            item.Quality = item.Quality - 1;
-                        }
-                    }
-                }
-                else
                 {
                     if (item.Quality < 50)
                     {

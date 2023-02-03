@@ -20,7 +20,6 @@ namespace csharp
 
         private static void DoUpdateQuality(Item item)
         {
-            var isSulfuras = item.Name == "Sulfuras, Hand of Ragnaros";
             if (item.Name == "Aged Brie")
             {
                 if (item.Quality < 50)
@@ -72,6 +71,7 @@ namespace csharp
                 }
                 else
                 {
+                    var isSulfuras = item.Name == "Sulfuras, Hand of Ragnaros";
                     if (item.Quality > 0)
                     {
                         if (!isSulfuras)

@@ -76,25 +76,12 @@ namespace csharp
                     {
                         if (item.Quality > 0)
                         {
-                            if (!isSulfuras)
-                            {
-                                item.Quality = item.Quality - 1;
-                            }
-                        }
-
-                        if (!isSulfuras)
-                        {
-                            item.SellIn = item.SellIn - 1;
                         }
 
                         if (item.SellIn < 0)
                         {
                             if (item.Quality > 0)
                             {
-                                if (!isSulfuras)
-                                {
-                                    item.Quality = item.Quality - 1;
-                                }
                             }
                         }
                     }

@@ -44,7 +44,14 @@ namespace csharp
             else
             {
                 var isBackstagePass = item.Name == "Backstage passes to a TAFKAL80ETC concert";
-                DoEverythingElse(item, isBackstagePass);
+                if (isBackstagePass)
+                {
+                    DoEverythingElse(item, isBackstagePass); 
+                }
+                else
+                {
+                    DoEverythingElse(item, isBackstagePass); 
+                }
             }
         }
 

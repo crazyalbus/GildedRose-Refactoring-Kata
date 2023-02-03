@@ -27,7 +27,7 @@ namespace csharp
                 {
                     item.Quality = item.Quality + 1;
 
-                    if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
+                    if (false)
                     {
                         if (item.SellIn < 11)
                         {

@@ -74,38 +74,55 @@ namespace csharp
                     var isSulfuras = item.Name == "Sulfuras, Hand of Ragnaros";
                     if (isSulfuras)
                     {
-                        DoEverythingElse(item, isSulfuras); 
+                        if (item.Quality > 0)
+                        {
+                            if (!isSulfuras)
+                            {
+                                item.Quality = item.Quality - 1;
+                            }
+                        }
+
+                        if (!isSulfuras)
+                        {
+                            item.SellIn = item.SellIn - 1;
+                        }
+
+                        if (item.SellIn < 0)
+                        {
+                            if (item.Quality > 0)
+                            {
+                                if (!isSulfuras)
+                                {
+                                    item.Quality = item.Quality - 1;
+                                }
+                            }
+                        }
                     }
                     else
                     {
-                        DoEverythingElse(item, isSulfuras); 
-                    }
-                }
-            }
-        }
+                        if (item.Quality > 0)
+                        {
+                            if (!isSulfuras)
+                            {
+                                item.Quality = item.Quality - 1;
+                            }
+                        }
 
-        private static void DoEverythingElse(Item item, bool isSulfuras)
-        {
-            if (item.Quality > 0)
-            {
-                if (!isSulfuras)
-                {
-                    item.Quality = item.Quality - 1;
-                }
-            }
+                        if (!isSulfuras)
+                        {
+                            item.SellIn = item.SellIn - 1;
+                        }
 
-            if (!isSulfuras)
-            {
-                item.SellIn = item.SellIn - 1;
-            }
-
-            if (item.SellIn < 0)
-            {
-                if (item.Quality > 0)
-                {
-                    if (!isSulfuras)
-                    {
-                        item.Quality = item.Quality - 1;
+                        if (item.SellIn < 0)
+                        {
+                            if (item.Quality > 0)
+                            {
+                                if (!isSulfuras)
+                                {
+                                    item.Quality = item.Quality - 1;
+                                }
+                            }
+                        }
                     }
                 }
             }

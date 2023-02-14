@@ -34,7 +34,7 @@ At the time of writing, the following branches exist in this repo:
   - `csharp-liftup-start`
     - Starting point for participants in a "lift up conditional" workshop
     - See [Emily's demo video](https://www.youtube.com/watch?v=OJmg9aMxPDI)
-  - `csharp-liftup-demo`
+  - [`csharp-liftup-demo`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-liftup-demo)
     - Designed to contain demo commits for the lift up conditional technique 
     - Based on the `csharp-liftup-start` branch
     - I may or may not have got round to actually adding the demo commits

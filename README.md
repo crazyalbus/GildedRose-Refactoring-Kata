@@ -16,7 +16,7 @@ I've deliberately kept my `main` branch clean. It only contains Emily's source c
 
 Note that I have [another version of this repo](https://github.com/claresudbery/gilded-rose-kata), not a fork, which has its own readme. 
   - It's mostly deprecated now - you probably want to ignore it.
-  - BUT it is worth noting that my sample refactored code - using polymorphism - was originally coded in the other version of this repo, and although I have copied the code over to the []`sample-polymorphic-refactor` branch](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/sample-polymorphic-refactor) in *this* one, the original commits are all in the [older repo](https://github.com/claresudbery/gilded-rose-kata). 
+  - BUT it is worth noting that my sample refactored code - using polymorphism - was originally coded in the other version of this repo, and although I have copied the code over to the [`sample-polymorphic-refactor` branch](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/sample-polymorphic-refactor) in *this* one, the original commits are all in the [older repo](https://github.com/claresudbery/gilded-rose-kata). 
 
 At the time of writing, the following branches exist in this repo:
 

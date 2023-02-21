@@ -14,40 +14,43 @@ I've deliberately kept my `main` branch clean. It only contains Emily's source c
 
 ## A note on branches
 
-Note that I have another version of this repo, not a fork, which has its own readme. 
+Note that I have [another version of this repo](https://github.com/claresudbery/gilded-rose-kata), not a fork, which has its own readme. 
   - It's mostly deprecated now - you probably want to ignore it.
-  - BUT it is worth noting that my sample refactored code - using polymorphism - was originally coded in this repo, and although I have copied the code over to the `sample-polymorphic-refactor` branch, the original commits are all in the older repo. 
+  - BUT it is worth noting that my sample refactored code - using polymorphism - was originally coded in the other version of this repo, and although I have copied the code over to the [`sample-polymorphic-refactor` branch](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/sample-polymorphic-refactor) in *this* one, the original commits are all in the [older repo](https://github.com/claresudbery/gilded-rose-kata). 
 
 At the time of writing, the following branches exist in this repo:
 
 - Branches designed to be merged with new branches:
-  - `clare-fork-readme` 
+  - [`clare-fork-readme`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/clare-fork-readme)
     - Created purely to contain this forked version of the main readme 
     - Designed to be merged into any new branches
-  - `csharp-approval-fixes`
+  - [`csharp-approval-fixes`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-approval-fixes)
     - Created to house changes I needed to make to get approval tests working in C# code
     - A [PR has been issued](https://github.com/emilybache/GildedRose-Refactoring-Kata/pull/402) to get this merged into Emily's source
-  - `requirements-edit`
+  - [`requirements-edit`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/requirements-edit)
     - Edited version of the Gilded Rose requirements
     - A [PR has been issued](https://github.com/emilybache/GildedRose-Refactoring-Kata/pull/403) to get this merged into Emily's source
 - Branches created for workshops and demos:
-  - `csharp-liftup-start`
+  - [`csharp-liftup-start`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-liftup-start)
     - Starting point for participants in a "lift up conditional" workshop
     - See [Emily's demo video](https://www.youtube.com/watch?v=OJmg9aMxPDI)
-  - `csharp-liftup-demo`
+  - [`csharp-liftup-demo`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-liftup-demo)
     - Designed to contain demo commits for the lift up conditional technique 
     - Based on the `csharp-liftup-start` branch
     - I may or may not have got round to actually adding the demo commits
-  - `csharp-unit-tests`
+  - [`csharp-unit-tests`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-unit-tests)
     - Starting point for a refactoring based on unit tests rather than approval tests
-    - Note that the original commits for this are all still in the `csharp-test-start` branch in [the older repo](https://github.com/claresudbery/gilded-rose-kata/tree/csharp-test-start)
-  - `sample-polymorphic-refactor`
+    - Note that the original commits for this are all still in the [`csharp-test-start` branch in the older repo](https://github.com/claresudbery/gilded-rose-kata/tree/csharp-test-start)
+  - [`sample-polymorphic-refactor`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/sample-polymorphic-refactor)
     - Demo of my polymorphic refactoring
     - Note that the original commits for this are all still in the `master` branch in [the older repo](https://github.com/claresudbery/gilded-rose-kata)
-  - `oreilly-refactoring-demo`
+  - [`oreilly-refactoring-demo`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/oreilly-refactoring-demo)
     - I think I created this when I was demoing code the first time I ran the O'Reilly Refactoring Fundamentals course
-  - `oreilly-refactoring-demo-v2`
+  - [`oreilly-refactoring-demo-v2`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/oreilly-refactoring-demo-v2)
     - Looks like I created this when I was demoing code the *second* time I ran the O'Reilly Refactoring Fundamentals course
+  - [`if-parsing-exercise`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/if-parsing-exercise)
+    - Created purely to play about with some equivalent boolean expressions for the sake of a little connect exercise
+    - should be in a different repo really - only related to Gilded Rose because I created it for a "lift up conditional" learning hour which also used the Gilded Rose repo
 
 ## Emily's Intro
 

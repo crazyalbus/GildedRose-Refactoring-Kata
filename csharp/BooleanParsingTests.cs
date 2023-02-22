@@ -2,6 +2,8 @@
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using NUnit.Framework;
+// ReSharper disable EqualExpressionComparison
+// ReSharper disable ConditionIsAlwaysTrueOrFalse
 
 namespace csharp
 {
@@ -20,7 +22,7 @@ namespace csharp
 
         private String DoBooleanParsingEx1(String colour1, String colour2)
         {
-            bool result1 = (colour1 == colour1 && colour2 == colour2);
+            bool result1 = colour1 == colour1 && colour2 == colour2;
             bool result2 = true;
             return $"{result1 == result2}";
         }
@@ -36,7 +38,7 @@ namespace csharp
 
         private String DoBooleanParsingEx2(String colour1, String colour2)
         {
-            bool result1 = (colour1 == "green" && colour1 == "blue");
+            bool result1 = colour1 == "green" && colour1 == "blue";
             bool result2 = false;
             return $"{result1 == result2}";
         }
@@ -52,7 +54,7 @@ namespace csharp
 
         private String DoBooleanParsingEx3(String colour1, String colour2)
         {
-            bool result1 = (colour1 != "green" && colour2 != "blue");
+            bool result1 = colour1 != "green" && colour2 != "blue";
             bool result2 = !(colour1 == "green" || colour2 == "blue");
             return $"{result1 == result2}";
         }
@@ -69,7 +71,7 @@ namespace csharp
         private String DoBooleanParsingEx4(String colour1, String colour2)
         {
             bool result1 = !(colour1 != "green" && colour2 != "blue");
-            bool result2 = (colour1 == "green" || colour2 == "blue");
+            bool result2 = colour1 == "green" || colour2 == "blue";
             return $"{result1 == result2}";
         }
 
@@ -85,7 +87,7 @@ namespace csharp
         private String DoBooleanParsingEx5(String colour1, String colour2)
         {
             bool result1 = !(colour1 == "green" && colour2 == "blue");
-            bool result2 = (colour1 != "green") || (colour2 != "blue");
+            bool result2 = colour1 != "green" || colour2 != "blue";
             return $"{result1 == result2}";
         }
 
@@ -101,7 +103,7 @@ namespace csharp
         private String DoBooleanParsingEx6(String colour1, String colour2)
         {
             bool result1 = !(colour1 == "green" || colour2 == "blue");
-            bool result2 = (colour1 != "green") && (colour2 != "blue");
+            bool result2 = colour1 != "green" && colour2 != "blue";
             return $"{result1 == result2}";
         }
 

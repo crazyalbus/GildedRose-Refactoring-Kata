@@ -2,6 +2,7 @@
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using NUnit.Framework;
+// ReSharper disable EqualExpressionComparison
 
 namespace csharp
 {
@@ -22,7 +23,7 @@ namespace csharp
         {
             bool result1 = false;
             bool result2 = false;
-            if((colour1 == colour1 && colour2 == colour2))
+            if(colour1 == colour1 && colour2 == colour2)
             {
                 result1 = true;
             }
@@ -46,7 +47,7 @@ namespace csharp
         {
             bool result1 = false;
             bool result2 = false;
-            if((colour1 == "green" && colour1 == "blue"))
+            if(colour1 == "green" && colour1 == "blue")
             {
                 result1 = true;
             }
@@ -70,7 +71,7 @@ namespace csharp
         {
             bool result1 = false;
             bool result2 = false;
-            if((colour1 != "green" && colour2 != "blue"))
+            if(colour1 != "green" && colour2 != "blue")
             {
                 result1 = true;
             }
@@ -98,7 +99,7 @@ namespace csharp
             {
                 result1 = true;
             }
-            if((colour1 == "green" || colour2 == "blue"))
+            if(colour1 == "green" || colour2 == "blue")
             {
                 result2 = true;
             }
@@ -122,7 +123,7 @@ namespace csharp
             {
                 result1 = true;
             }
-            if((colour1 != "green") || (colour2 != "blue"))
+            if(colour1 != "green" || colour2 != "blue")
             {
                 result2 = true;
             }
@@ -146,7 +147,7 @@ namespace csharp
             {
                 result1 = true;
             }
-            if((colour1 != "green") && (colour2 != "blue"))
+            if(colour1 != "green" && colour2 != "blue")
             {
                 result2 = true;
             }

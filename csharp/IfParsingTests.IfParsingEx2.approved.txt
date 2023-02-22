@@ -1,0 +1,4 @@
+﻿[green,green] => False
+[green,blue] => False
+[blue,green] => False
+[blue,blue] => False

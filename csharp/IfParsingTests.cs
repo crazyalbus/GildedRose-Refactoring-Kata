@@ -3,6 +3,7 @@ using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using NUnit.Framework;
 // ReSharper disable EqualExpressionComparison
+// ReSharper disable ConditionIsAlwaysTrueOrFalse
 
 namespace csharp
 {

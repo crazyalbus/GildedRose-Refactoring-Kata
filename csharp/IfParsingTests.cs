@@ -4,6 +4,7 @@ using ApprovalTests.Reporters;
 using NUnit.Framework;
 // ReSharper disable EqualExpressionComparison
 // ReSharper disable ConditionIsAlwaysTrueOrFalse
+#pragma warning disable CS0162 // Unreachable code detected
 
 namespace csharp
 {
@@ -156,3 +157,5 @@ namespace csharp
         }
     }
 }
+
+#pragma warning restore CS0162 // Unreachable code detected

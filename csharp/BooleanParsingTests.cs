@@ -92,22 +92,6 @@ namespace csharp
         }
 
         [Test]
-        public void BooleanParsingEx6()
-        {
-            CombinationApprovals.VerifyAllCombinations(
-                DoBooleanParsingEx6,
-                new String[] { "green", "blue" },
-                new String[] { "green", "blue" });
-        }
-
-        private String DoBooleanParsingEx6(String colour1, String colour2)
-        {
-            bool result1 = !(colour1 == "green" || colour2 == "blue");
-            bool result2 = colour1 != "green" && colour2 != "blue";
-            return $"{result1 == result2}";
-        }
-
-        [Test]
         public void BooleanParsingTestOtherGuesses()
         {
             CombinationApprovals.VerifyAllCombinations(

@@ -1,4 +1,0 @@
-﻿[green,green] => True
-[green,blue] => True
-[blue,green] => True
-[blue,blue] => True

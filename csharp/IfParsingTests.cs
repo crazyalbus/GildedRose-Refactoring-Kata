@@ -131,30 +131,6 @@ namespace csharp
         }
 
         [Test]
-        public void IfParsingEx6()
-        {
-            CombinationApprovals.VerifyAllCombinations(
-                DoIfParsingEx6,
-                new String[] { "green", "blue" },
-                new String[] { "green", "blue" });
-        }
-
-        private String DoIfParsingEx6(String colour1, String colour2)
-        {
-            bool result1 = false;
-            bool result2 = false;
-            if(!(colour1 == "green" || colour2 == "blue"))
-            {
-                result1 = true;
-            }
-            if(colour1 != "green" && colour2 != "blue")
-            {
-                result2 = true;
-            }
-            return $"{result1 && result2}";
-        }
-
-        [Test]
         public void IfParsingTestOtherGuesses()
         {
             CombinationApprovals.VerifyAllCombinations(

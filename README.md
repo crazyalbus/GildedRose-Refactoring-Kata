@@ -37,7 +37,9 @@ At the time of writing, the following branches exist in this repo:
   - [`csharp-liftup-demo`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-liftup-demo)
     - Designed to contain demo commits for the lift up conditional technique 
     - Based on the `csharp-liftup-start` branch
-    - I may or may not have got round to actually adding the demo commits
+  - [`csharp-liftup-demo-nearly-done`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-liftup-demo)
+    - Designed for a demo of the lift up conditional technique - allows me to fast forward to when the refactor is nearly finished
+    - Based on [this commit](https://github.com/claresudbery/GildedRose-Refactoring-Kata/commit/a3cda4722ad0306631d41e71e5b58e3e8f0e5833) from the `csharp-liftup-demo` branch
   - [`csharp-unit-tests`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-unit-tests)
     - Starting point for a refactoring based on unit tests rather than approval tests
     - Note that the original commits for this are all still in the [`csharp-test-start` branch in the older repo](https://github.com/claresudbery/gilded-rose-kata/tree/csharp-test-start)

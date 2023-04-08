@@ -26,6 +26,7 @@ At the time of writing, the following branches exist in this repo:
     - Designed to be merged into any new branches
   - [`csharp-approval-fixes`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/csharp-approval-fixes)
     - Created to house changes I needed to make to get approval tests working in C# code
+      - Note that they should now be working for both the `csharp` and `csharpcore` versions of the code
     - A [PR has been issued](https://github.com/emilybache/GildedRose-Refactoring-Kata/pull/402) to get this merged into Emily's source
   - [`requirements-edit`](https://github.com/claresudbery/GildedRose-Refactoring-Kata/tree/requirements-edit)
     - Edited version of the Gilded Rose requirements

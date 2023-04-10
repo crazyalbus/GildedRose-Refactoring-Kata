@@ -23,7 +23,7 @@ namespace GildedRoseTests
                     "Aged Brie", 
                     "Backstage passes to a TAFKAL80ETC concert", 
                     "Sulfuras, Hand of Ragnaros" },
-                new int[] { -1, 0, 11 },
+                new int[] { -1, 0, 2, 6, 11 },
                 new int[] { 0, 1, 49, 50 });
         }
 

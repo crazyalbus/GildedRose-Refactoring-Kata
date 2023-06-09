@@ -18,13 +18,13 @@ namespace GildedRoseTests
             
             CombinationApprovals.VerifyAllCombinations(
                 DoUpdateQuality,
-                new String[] { 
+                new String[] { // name
                     "foo", 
                     "Aged Brie", 
                     "Backstage passes to a TAFKAL80ETC concert", 
                     "Sulfuras, Hand of Ragnaros" },
-                new int[] { -1, 0, 11 },
-                new int[] { 0, 1, 49, 50 });
+                new int[] { -1, 0, 11 }, // sellin
+                new int[] { 0, 1, 49, 50 }); // quality
         }
 
         private string DoUpdateQuality(string name, int sellIn, int quality)

@@ -1,3 +1,7 @@
+## Getting started
+
+See example in https://github.com/claresudbery/GildedRose-Refactoring-Kata/blob/oreilly-refactoring-demo/csharp/GildedRose.cs
+
 ## Principles:
 
 - test coverage,
@@ -22,6 +26,8 @@ If diff tool doesn't open, run this in terminal:
 - (Make sure you're in right subfolder: `cd GildedRoseTests`)
 - Run `mv ApprovalTest.ThirtyDays.received.txt ApprovalTest.ThirtyDays.approved.txt`
 
+## b. Rename i -> itemIndex
+
 ## 1. Magic strings:
 
 Automated refactoring: select strings one at a time.
@@ -31,7 +37,10 @@ In Rider, Cmd + Shift + R -> introduce field -> introduce constant
 
 ## 2. Extract methods:
 
+- All of the below are the expressions inside the if statements
+
 Item_quality_decreases_with_age(int item_index)
+    - First if statement after for loop: `if (Item_quality_decreases_with_age(i))`
 Item_is_backstage_pass(item_index)
 Item_is_not_aged_brie(item_index)
 Item_is_not_backstage_pass(item_index)
@@ -47,25 +56,18 @@ Decrement_SellIn(item_index)
         private const int SecondConcertQualityThreshold = 5;
         private const int MaxQuality = 50;
 
-## 4. Unnecessary if:
-
-if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
-{
-Items[i].Quality = Items[i].Quality - 1;
-}
-
 ## 5. Move if statement to Increment_quality method
 
 if (_items[item_index].Quality < MaxQuality)
 {
-_items[item_index].Quality = _items[item_index].Quality + 1;
+    _items[item_index].Quality = _items[item_index].Quality + 1;
 }
 
 ## 6. Move if statement to Decrement_quality method
 
 if (_items[item_index].Quality > 0 && Item_is_not_legendary(item_index))
 {
-_items[item_index].Quality = _items[item_index].Quality - 1;
+    _items[item_index].Quality = _items[item_index].Quality - 1;
 }
 
 ## 7. Extract methods

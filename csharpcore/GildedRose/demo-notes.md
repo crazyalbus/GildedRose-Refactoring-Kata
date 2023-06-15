@@ -20,6 +20,7 @@ Follow numbered steps below.
 
 Do this as part of the demo so people see you get tests working.
 In Rider (on Mac), open csharpcore folder
+DON'T EXPLAIN APPROVAL TESTS STUFF - THAT COMES IN NEXT DEMO
 In GildedRoseTest.cs, fix fixme
 Run all tests, and approve the output in the diff tool
 If diff tool doesn't open, run this in terminal:

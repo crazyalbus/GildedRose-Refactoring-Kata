@@ -76,3 +76,7 @@ if (_items[item_index].Quality > 0 && Item_is_not_legendary(item_index))
 Add_extra_quality_if_concert_date_is_near(item_index)
 Adjust_quality_if_sell_by_date_has_passed(item_index)
 Adjust_number_of_days_to_sell_by_date(item_index)
+
+# DEMO 2
+
+see other branch (csharp only - if on Mac use browser): `sample-polymorphic-refactor`

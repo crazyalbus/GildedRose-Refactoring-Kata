@@ -1,19 +1,41 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 using System.Collections.Generic;
+using ApprovalTests;
+using ApprovalTests.Combinations;
+using ApprovalTests.Reporters;
 using GildedRoseKata;
 
 namespace GildedRoseTests
 {
+    [UseReporter(typeof(DiffReporter))]
     public class GildedRoseTest
     {
         [Fact]
-        public void foo()
-        // public void UpdateQuality()
+        public void UpdateQuality()
         {
-            IList<Item> Items = new List<Item> { new Item { Name = "foo", SellIn = 0, Quality = 0 } };
+            CombinationApprovals.VerifyAllCombinations(
+                DoUpdateQuality, 
+                new String[]{
+                    "foo", 
+                    "Aged Brie", 
+                    "Sulfuras, Hand of Ragnaros",
+                    "Backstage passes to a TAFKAL80ETC concert"
+                }, 
+                // SellIn:
+                new int[]{-1, 0, 11}, 
+                // Quality:
+                new int[]{0, 1, 49, 50});
+        }
+
+        private static string DoUpdateQuality(string name, int sellIn, int quality)
+        {
+            var item = new Item { Name = name, SellIn = sellIn, Quality = quality };
+            IList<Item> Items = new List<Item> { item };
             GildedRose app = new GildedRose(Items);
             app.UpdateQuality();
-            Assert.Equal("fixme", Items[0].Name);
+            var itemString = Items[0].ToString();
+            return itemString;
         }
     }
 }

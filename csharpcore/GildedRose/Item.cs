@@ -6,9 +6,9 @@
         public int SellIn { get; set; }
         public int Quality { get; set; }  
         
-        // public override string ToString()
-        // {
-        //     return this.Name + ", " + this.SellIn + ", " + this.Quality;
-        // }  
+        public override string ToString()
+        {
+            return this.Name + ", " + this.SellIn + ", " + this.Quality;
+        }  
     }
 }

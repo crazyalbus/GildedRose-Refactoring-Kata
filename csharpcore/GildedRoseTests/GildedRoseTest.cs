@@ -19,6 +19,8 @@ namespace GildedRoseTests
 }
 
 /*
+ NB: The final state of the code is commented out at the bottom. 
+    Also the final state of this code is the starting state of the csharp-mutation-start branch.
 STEP 1 - get test passing
     Replace foo() with UpdateQuality()
     Change fixme to foo
@@ -97,7 +99,7 @@ STEP 4 - start adding meaningful test data
         then add 1, 49 and 50 to quality (third param) (100% coverage)
             because there are if statements for quality `> 0` and `< 50`                
     So now you have 100% coverage
-        Code will look like this:
+        Code will look like this (in public void UpdateQuality()):
             CombinationApprovals.VerifyAllCombinations(
                 DoUpdateQuality,
                 new String[] { "foo", "Aged Brie", "Backstage passes to a TAFKAL80ETC concert", "Sulfuras, Hand of Ragnaros" },
